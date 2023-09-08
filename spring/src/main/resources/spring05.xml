@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stuEntity" class="com.haziy.entity.StuEntity">
+        <!--1. 数组-->
+        <property name="arrays">
+            <array>
+                <value>haziy01</value>
+                <value>haziy02</value>
+                <value>haziy03</value>
+                <value>haziy04</value>
+            </array>
+        </property>
+        <!--2. list集合-->
+        <property name="list">
+            <list>
+                <value>123</value>
+                <value>456</value>
+                <value>789</value>
+            </list>
+        </property>
+        <!--3. map集合-->
+        <property name="map">
+            <map>
+                <entry key="1" value="hello"/>
+                <entry key="2" value="world"/>
+                <entry key="3" value="!!"/>
+            </map>
+        </property>
+
+        <!--4. set集合-->
+        <property name="set">
+            <set>
+                <value>123</value>
+                <value>456</value>
+                <value>789</value>
+                <value>000</value>
+            </set>
+        </property>
+
+    </bean>
+</beans>
