@@ -1,3 +1,4 @@
 com\haziy\config\ServletInitializer.class
-com\haziy\controller\HaziyController.class
 com\haziy\config\SpringMVCConfig.class
+com\haziy\controller\ParamController.class
+com\haziy\controller\HaziyController.class
